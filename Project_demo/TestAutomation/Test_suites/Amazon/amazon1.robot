@@ -1,9 +1,8 @@
 *** Settings ***
-Resource            C:/Project_demo/TestAutomation/Keywords/libraries.resource
+Resource            ../../Keywords/libraries.resource
 Suite Setup            Open Application
 Test Setup            Reload Page           
 Suite Teardown            End Execution
-# Test Template    Create and sort list
 
 *** Variables ***
 ${li1}    1    7    3    6
