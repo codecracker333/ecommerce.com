@@ -1,0 +1,6 @@
+*** Keywords ***
+
+Pass Key
+    Pass1   set variable    8639526608     
+    Pass2   set variable    HitherSONIhere@
+    return    Pass1     Pass2

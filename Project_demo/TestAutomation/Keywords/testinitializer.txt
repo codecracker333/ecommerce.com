@@ -1,0 +1,7 @@
+*** Settings ***
+Resouce            amazon.txt
+Resouce            flipkart.txt
+Resouce            libraries.txt
+
+*** Keywords ***
+Initialize Variables And Configurations
