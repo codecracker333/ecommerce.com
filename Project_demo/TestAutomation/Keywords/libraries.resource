@@ -6,15 +6,14 @@ Library            DateTime
 Library            String
 #Library            RequestLibrary
 Library            Collections
-Resource            C:/Project_demo/TestAutomation/Resources/idcredmapper.txt
-Resource            C:/Project_demo/TestAutomation/Keywords/common.resource
-Library            C:/Project_demo/TestAutomation/Keywords/python_keywords/MyKeywords.py
+Resource             ../Resources/idcredmapper.txt
+Resource            ../Keywords/common.resource
+Library             ../Keywords/python_keywords/MyKeywords.py
 
 
 *** Keywords ***
 
 End Execution
-    Log    ${TEST STATUS}
     Close All Browsers
 
 Open Application
